@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "talesofold",
+	"version": "${version}",
+	"name": "The Tales of Old",
+	"description": "Fills your world with stories and history to make it feel 'lived in'. Send in the story of your Minecraft world to eternalize and share it with this mod!",
+	"authors": [
+		"Selfindulgent Nonsense (Freddy)"
+	],
+	"contact": {
+		"homepage": "https://mods.selfindulgentnonsense.com/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/talesofold/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.selfindulgentnonsense.mods.talesofold.TalesOfOld"
+		],
+		"client": [
+			"com.selfindulgentnonsense.mods.talesofold.TalesOfOldClient"
+		],
+		"fabric-datagen": [
+			"com.selfindulgentnonsense.mods.talesofold.TalesOfOldDataGenerator"
+		]
+	},
+	"mixins": [
+		"talesofold.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.14",
+		"minecraft": "~1.19.3",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
