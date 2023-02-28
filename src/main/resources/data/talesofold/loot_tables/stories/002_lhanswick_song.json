@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pages:['{\"text\":\"Verse 1:\\\\nThe blacksmith\\\\nhammers, his forge\\\\nablaze,\\\\nCreating weapons, to\\\\nprotect always,\\\\nThe farmer tends to\\\\nthe fields so green,\\\\nGrowing food for all, a\\\\nbountiful scene.\\\\n\\\\nChorus:\\\\nWe work together, to\\\\nkeep our home,\\\\n\"}', '{\"text\":\"A thriving village,\\\\nnever alone,\\\\nOur skills are varied,\\\\nour hearts are true,\\\\nIn this world of\\\\nblocks, well see it\\\\nthrough.\\\\n\\\\nVerse 2:\\\\nThe librarian reads,\\\\nwith knowledge vast,\\\\nTeaching our children,\\\\ntheir minds to cast,\\\\nThe cleric prays, for\"}', '{\"text\":\"blessings divine,\\\\nGuiding us forward, in\\\\nlife and in kind.\\\\n\\\\nChorus:\\\\nWe work together, to\\\\nkeep our home,\\\\nA thriving village,\\\\nnever alone,\\\\nOur skills are varied,\\\\nour hearts are true,\\\\nIn this world of\\\\nblocks, well see it\\\\nthrough.\\\\n\"}', '{\"text\":\"\\\\nVerse 3:\\\\nThe fisherman casts,\\\\nhis line so strong,\\\\nBringing in catch, all\\\\nday long,\\\\nThe butcher\\\\nprepares, the meat so\\\\nfine,\\\\nCooking and sharing, a\\\\nfeast so divine.\\\\n\\\\nChorus:\\\\nWe work together, to\"}', '{\"text\":\"keep our home,\\\\nA thriving village,\\\\nnever alone,\\\\nOur skills are varied,\\\\nour hearts are true,\\\\nIn this world of\\\\nblocks, well see it\\\\nthrough.\\\\n\\\\nBridge:\\\\nWe may be small, in this\\\\nworld so vast,\\\\nBut our spirits are\\\\nstrong, well always\"}', '{\"text\":\"last,\\\\nWith each profession,\\\\na purpose we find,\\\\nBuilding a future, for\\\\nall villagerkind.\\\\n\\\\nChorus:\\\\nWe work together, to\\\\nkeep our home,\\\\nA thriving village,\\\\nnever alone,\\\\nOur skills are varied,\\\\nour hearts are true,\\\\nIn this world of\"}', '{\"text\":\"blocks, well see it\\\\nthrough.\"}'],title:\"Lhanswick Town Song\",author:\"Lhanswick Town Meetup\",resolved:\"1b\",generation:1}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "You shall teach this song to your children, for it shall last.",
+                  "color": "violet",
+                  "bold": false,
+                  "italic": true,
+                  "underlined": true,
+                  "strikethrough": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

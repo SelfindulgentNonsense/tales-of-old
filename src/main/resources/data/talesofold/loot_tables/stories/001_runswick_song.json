@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pages:['{\"text\":\"Verse 1: \\\\nWe’re the folks of\\\\nMinecraft town, \\\\nOur days are spent\\\\ndigging down, \\\\nPlanting crops and\\\\ntending sheep, \\\\nIn this world, its ours\\\\nto keep. \\\\n\\\\nChorus: \\\\nWe love our life, it’s\\\\nsimple and pure, \\\\nWe’ll work all day, of\"}', '{\"text\":\"that we’re sure, \\\\nWe’ll sing this song,\\\\nand dance around, \\\\nUntil the sun goes\\\\ndown. \\\\n\\\\nVerse 2: \\\\nPillagers, they come to\\\\ntown, \\\\nWe huddle up, our\\\\nfaces frown, \\\\nWe’ll fight them off,\\\\nwe’ll make them run, \\\\nUntil they’re gone,\"}', '{\"text\":\"we’ll have some fun. \\\\n\\\\nChorus: \\\\nWe love our life, it’s\\\\nsimple and pure, \\\\nWe’ll work all day, of\\\\nthat we’re sure, \\\\nWe’ll sing this song,\\\\nand dance around, \\\\nUntil the sun goes\\\\ndown. \\\\n\\\\nVerse 3: \\\\nThe little things make\"}', '{\"text\":\"us smile, \\\\nWatching wildlife for a\\\\nwhile, \\\\nExploring new caves\\\\nunderground, \\\\nIs the best treasure\\\\nthat weve found. \\\\n\\\\nChorus: \\\\nWe love our life, it’s\\\\nsimple and pure, \\\\nWe’ll work all day, of\\\\nthat we’re sure, \\\\nWe’ll sing this song,\"}', '{\"text\":\"and dance around, \\\\nUntil the sun goes\\\\ndown. \\\\n\\\\nBridge: \\\\nWe’ll mine for\\\\ndiamonds and well sing,\\\\n\\\\nWe’ll keep on living\\\\nlike Village kings, \\\\nOur life might be\\\\nrough and tough, \\\\nBut were never giving\\\\nup.\\\\n\"}', '{\"text\":\"\\\\nVerse 4: \\\\nAs the sun sets on\\\\nour town, \\\\nWe gather round, the\\\\nfires sound, \\\\nOur hearts are full,\\\\nour souls content, \\\\nThis life we live is\\\\nheaven-sent.\\\\n\\\\nChorus: \\\\nWe love our life, it’s\\\\nsimple and pure, \\\\n\"}', '{\"text\":\"We’ll work all day, of\\\\nthat we’re sure, \\\\nWe’ll sing this song,\\\\nand dance around, \\\\nUntil the sun goes\\\\ndown.\\\\n\\\\nVerse 5: \\\\nOur home is where we\\\\nfind our peace, \\\\nWhere happiness will\\\\nnever cease, \\\\nOur hearts are filled\\\\nwith joy and pride, \\\\n\"}', '{\"text\":\"In our Minecraft\\\\nworld, we will reside.\\\\n\\\\nChorus: \\\\nWe love our life, it’s\\\\nsimple and pure, \\\\nWe’ll work all day, of\\\\nthat we’re sure, \\\\nWe’ll sing this song,\\\\nand dance around, \\\\nUntil the sun goes\\\\ndown.\\\\n\\\\nOutro: \\\\n\"}', '{\"text\":\"Our life might be\\\\nsimple, but its true, \\\\nIn Minecraft world\\\\nwell always pursue, \\\\nThis simple life, with all\\\\nour might, \\\\nWell keep on living in\\\\npure delight.\"}'],title:\"Runswick Town Song\",author:\"Runswick Town Meetup\",resolved:\"1b\",generation:3}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "To be sung before every Town Meeting held every 10 days.",
+                  "color": "yellow",
+                  "bold": false,
+                  "italic": true,
+                  "underlined": false,
+                  "strikethrough": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pages:['{\"text\":\"Verse 1: \\\\nOur town is lively,\\\\nnever a bore, \\\\nFishing and farming,\\\\nwe adore, \\\\nThe sun is shining, the\\\\nsky so blue, \\\\nBut danger lurks, we\\\\nfear its true.\\\\n\\\\nChorus: \\\\nWe love our life, its\\\\nsimple and pure, \\\\nBut fear creeps in, we\"}', '{\"text\":\"cant ignore, \\\\nWell fight for what we\\\\nhold dear, \\\\nOur village strong, we\\\\nwont disappear.\\\\n\\\\nVerse 2: \\\\nBuilding our homes,\\\\nblock by block, \\\\nSharing our goods,\\\\nlike a clock, \\\\nA sense of community,\\\\nthats what we strive, \\\\nBut shadows loom, and\"}', '{\"text\":\"we cant survive.\\\\n\\\\nChorus: \\\\nWe love our life, its\\\\nsimple and pure, \\\\nBut fear creeps in, we\\\\ncant ignore, \\\\nWell fight for what we\\\\nhold dear, \\\\nOur village strong, we\\\\nwont disappear.\\\\n\\\\nVerse 3: \\\\nSitting by the fire,\"}', '{\"text\":\"warmth so bright, \\\\nSinging and dancing,\\\\nall through the night, \\\\nThe stars twinkle, a\\\\npeaceful sight, \\\\nBut danger\\\\napproaches, with all\\\\nits might.\\\\n\\\\nChorus: \\\\nWe love our life, its\\\\nsimple and pure, \\\\nBut fear creeps in, we\\\\ncant ignore, \\\\n\"}', '{\"text\":\"Well fight for what we\\\\nhold dear, \\\\nOur village strong, we\\\\nwont disappear.\\\\n\\\\nBridge: \\\\nWell band together,\\\\nour courage strong, \\\\nFight with all our might,\\\\nuntil the break of\\\\ndawn, \\\\nWell never give up\\\\nwell never back down, \\\\nOur village will stand,\"}', '{\"text\":\"with pride and renown.\\\\n\\\\nChorus: \\\\nWe love our life, its\\\\nsimple and pure, \\\\nBut fear creeps in, we\\\\ncant ignore, \\\\nWell fight for what we\\\\nhold dear, \\\\nOur village strong, we\\\\nwont disappear.\"}'],title:\"Silverkeep Town Song\",author:\"Silverkeep Town Meetup\",resolved:\"1b\",generation:1}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "Fellow Townsmen, please stay vigilant.",
+                  "color": "yellow",
+                  "bold": false,
+                  "italic": true,
+                  "underlined": false,
+                  "strikethrough": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

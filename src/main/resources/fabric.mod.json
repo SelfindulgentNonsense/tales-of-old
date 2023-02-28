@@ -3,16 +3,16 @@
 	"id": "talesofold",
 	"version": "${version}",
 	"name": "The Tales of Old",
-	"description": "Fills your world with stories and history to make it feel 'lived in'. Send in the story of your Minecraft world to eternalize and share it with this mod!",
+	"description": "Fills your world with stories and history to make it feel 'lived in'. Let's fill up those beautiful new chiseled bookshelves! Find many books and see overarching stories emerge. Send in the story of your Minecraft world to eternalize and share it in this mod!",
 	"authors": [
 		"Selfindulgent Nonsense (Freddy)"
 	],
 	"contact": {
-		"homepage": "https://mods.selfindulgentnonsense.com/",
+		"homepage": "https://mods.selfindulgentnonsense.com/talesofold/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "MIT",
-	"icon": "assets/talesofold/icon.png",
+	"icon": "assets/talesofold/logo.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
@@ -33,8 +33,5 @@
 		"minecraft": "~1.19.3",
 		"java": ">=17",
 		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
 	}
 }

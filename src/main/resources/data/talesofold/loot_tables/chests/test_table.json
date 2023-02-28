@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "talesofold:stories/001_runswick_song"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "talesofold:stories/002_lhanswick_song"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "talesofold:stories/003_silverkeep_song"
+        }
+      ]
+    }
+  ]
+}
